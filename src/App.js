@@ -12,7 +12,8 @@ import { Mycarousal } from './components/Mycarousal';
 import Projects from './components/Projects';
 
 import Skills from "./components/skills.component";
-
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -50,7 +51,7 @@ params={{
     >  */}
     <Parallax
           blur={{ min: -30, max: 30 }}
-          bgImage={require("./assests/img/parallex/BG.webp")}
+          bgImage={require("./bg2.jpg")}
           bgImageAlt=""
           strength={-200}
         >
@@ -77,6 +78,24 @@ params={{
           <Fade duration={500}>
             <hr />
             <Projects />
+          </Fade>
+        </Container>
+      </div>
+
+      <div>
+        <Container className="container-box rounded">
+          <Slide duration={500}>
+            <hr />
+            <Contact />
+          </Slide>
+        </Container>
+      </div>
+
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+            <Footer/>
           </Fade>
         </Container>
       </div>

@@ -6,7 +6,7 @@ import Image from "react-bootstrap/Image";
 import './Project.css';
 import HTML5 from "../assessts/html-5.svg";
 import css from "../assessts/css3.svg";
-import github from "../assessts/github-api.svg";
+
 import js from '../assessts/javascript.svg';
 import  react from "../assessts/react.svg";
 import film from "../assessts/film.jpeg";
@@ -15,8 +15,9 @@ import fire from "../assessts/fire.png";
 
 const Projects = () => {
     return (
-    <div id="projects">
-        <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
+    <div className="projects">
+        <h1 className="pt-3 text-center font-details pb-3">Projects</h1>
+        <div className="pt-3 pb-3" id="projects">
         <Timeline>
           <Events>
 
@@ -228,6 +229,7 @@ const Projects = () => {
           </ImageEvent>
           </Events>
       </Timeline>
+    </div>
     </div>
     );
     }

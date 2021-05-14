@@ -26,7 +26,7 @@ import './About.css';
                     Hi there! I am<strong>&nbsp;Shalini Singh</strong>
                     A Web Developer and Learner,born and brought up in India. 
                   <br/>
-                     I am a Front-end developer with HTML,CSS JAVASCRIPT and REACTJS
+                     I am a Front-end developer with HTML,CSS JAVASCRIPT and REACTJS.
                      <br/>
                      I'm pursuing my Engineering in Computer Science  <br/>
                      along with that I believe in self learning.<br/>
@@ -36,7 +36,7 @@ import './About.css';
                         <Row>
                             <Col className="d-flex justify-contnet-center flex-wrap">
                         <div>
-                            <a href="#contact"><Button  className="m-2" variant="outline-danger">lets talk</Button></a>
+                            <a href="#contact"><Button  className="m-2" variant="outline-danger">Let's talk</Button></a>
                             <a href="https://github.com/Shalini-16"><Button  className="m-2" variant="outline-info">Github</Button></a>
                            
                             <a href="https://www.linkedin.com/in/shalini-singh-108b4a19a/"><Button  className="m-2" variant="outline-secondary">LinkedIn</Button></a>

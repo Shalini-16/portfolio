@@ -9,7 +9,8 @@ max-width: 18em;
 }
 .my-details
 {
-    background-color:rgb(245,255,250);
+  /*  background-color:rgb(245,255,250);  */
+    background-color:rgb(240,255,255);
 
 }
 .font-details{

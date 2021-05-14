@@ -1,0 +1,8 @@
+.footer-style{
+    /*background-image: url("../assessts/bg3.jpg"); */
+    background-color: rgb(95,158,160);
+    color:white;
+    font-size: 1.5em;
+    border: 1px solid #101018f8;
+    border-top-left-radius: 3px;
+}
